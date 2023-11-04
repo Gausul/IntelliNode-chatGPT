@@ -17,9 +17,9 @@ Before using this code, make sure you have the following:
    ```bash
    git clone https://github.com/Gausul/IntelliNode-chatGPT.git
 
-2. cd your-repo
+2. `cd your-repo`
 
-3. npm install
+3. `npm install`
 
    
 ## Configuration
@@ -36,9 +36,16 @@ Before using this code, make sure you have the following:
 To interact with the ChatGPT chatbot, you can call the getChatbotResponses function. Here's an example of how to use it:
 
 `const chatbotResponses = await getChatbotResponses();`
+
 `console.log('Chatbot Responses:', chatbotResponses);`
 
 To execute the code and interact with the chatbot, run the following command:
 
 `node index.js`
 
+
+## Acknowledgments
+
+Intellinode - For providing the ChatGPT module for Node.js integration.
+
+Feel free to customize this README.md to include additional information specific to your project or usage.
